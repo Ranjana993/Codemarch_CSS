@@ -1,0 +1,30 @@
+body {
+    width: 50vw;
+    border: 2px solid black;
+    padding: 1%;
+    margin: auto;
+    height: 100%;
+    margin-top: 1%;
+}
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#container{
+    margin: auto;
+}
+ul{
+    margin: auto;
+    background-color: #3d8361;
+}
+ul>li{
+    /* background-color: #3d8361; */
+    color: white;
+    padding: 5%;
+    list-style-type:none ;
+    margin-left: -40px;
+}
+ul>li:hover{
+    background-color: #002b23;
+}

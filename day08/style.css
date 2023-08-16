@@ -1,0 +1,11 @@
+body {
+    width: 50vw;
+    border: 1px solid gray;
+    padding: 1%;
+    margin: auto;
+    height: 100%;
+    margin-top: 1%;
+}
+li{
+    color: red;
+}

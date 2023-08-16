@@ -1,0 +1,28 @@
+body {
+    width: 50vw;
+    border: 2px solid black;
+    padding: 1%;
+    margin: auto;
+    height: 100%;
+    margin-top: 1%;
+}
+
+#container{
+    padding: 1%;
+}
+header{
+    background-color: #3d8361;
+    color: white;
+    padding: 2%;
+    /* line-height: -11px; */
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 0px;
+}
+p{
+    background-color: lightcoral;
+    padding: 1%;
+    color: white;
+}

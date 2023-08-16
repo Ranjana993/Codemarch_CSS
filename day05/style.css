@@ -1,0 +1,9 @@
+body {
+    width: 50vw;
+    border: 2px solid gray;
+    padding: 1%;
+    margin: auto;
+    height: 100%;
+    margin-top: 1%;
+    border-radius: 9px;
+}

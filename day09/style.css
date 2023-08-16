@@ -1,0 +1,26 @@
+body {
+    width: 50vw;
+    border: 2px solid gray;
+    padding: 1%;
+    margin: auto;
+    height: 100%;
+    margin-top: 1%;
+}
+header>h1{
+    background-color: tomato;
+    color: darkgreen;
+    padding: 2%;
+
+}
+main >p{
+background-color: purple;
+color: white;
+padding: 1%;
+}
+#box{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(101, 95, 95);
+    background-color: rgb(84, 120, 84);
+}

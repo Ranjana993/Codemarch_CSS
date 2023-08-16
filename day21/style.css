@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: lightgray;
+}
+header{
+    background-color:#2a2626;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+header>h3{
+    text-transform: uppercase;
+}
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+ul li:nth-child(even) {
+    color: rgb(199, 76, 76);
+}
+ul li:nth-child(odd) {
+    color: rgb(25, 86, 206);
+}
+ul >li {
+    text-decoration: none;
+    list-style: none;
+}
+ul >li > a{
+    text-decoration: none;
+    margin-right: 1.2rem;
+    color: inherit;
+    text-align: center;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    padding: 10px;
+    gap: 12px;
+}
+
+
+.card{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid rgb(236, 232, 232);
+    
+}
+.card:hover{
+    box-shadow: 2px 2px 12px 2px #000;
+    transition: 0.5 ease-in-out;
+    padding: 2.3%;
+    cursor: pointer;
+}
+.card>img{
+    width: 100%;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: #201b1b;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}

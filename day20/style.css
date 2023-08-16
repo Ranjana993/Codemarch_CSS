@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: hsl(0, 82%, 40%);
+    /* height: 40px; */
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+ul>li {
+    list-style-type: none;
+    margin-right: 2rem;
+    padding: 1%;
+}
+
+#main {
+    background-color: whitesmoke;
+    padding: 2%;
+    text-align: center;
+    line-height: 2;
+
+}
+
+#main>.button {
+    background-color: rgb(214, 29, 60);
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#main>.button:hover {
+    background-color: #2199c1;
+    color: white;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services>.card {
+    width: 28%;
+    margin: auto;
+    padding: 1%;
+    border: 1px solid black;
+    margin: 1rem;
+
+}
+
+.services>.card>.btn {
+    background-color: black;
+    padding: 2%;
+    width: 40%;
+    margin-top: 2%;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+.services>.card>.btn:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.services>.card:hover {
+    box-shadow: 2px 2px 24px 2px #000;
+}
+
+.services>.card>img {
+    width: 100%;
+}
+
+.services>.card>img:hover {
+    transition: 0.5 ease-in-out;
+    width: 98%;
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.contact>.img {
+    width: 80%;
+    height: 70%;
+
+}
+
+.contact>.img>img {
+    height: 40%;
+    background-size: contain;
+}
+
+.contact>.form {
+    width: 100%;
+}
+
+
+
+form>input {
+    width: 90%;
+    height: 45px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    outline: none;
+    text-indent: 12px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+form>textarea {
+    width: 90%;
+    height: 120px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    outline: none;
+    text-indent: 12px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+form>button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    margin: auto;
+}
+
+form>button:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+footer {
+    background-color: rgb(3, 1, 8);
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
